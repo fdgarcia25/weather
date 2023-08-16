@@ -6,8 +6,8 @@ const DefaultWeather = () => {
   return (
     <div className="DefaultWeather">
       <div className="busqueda">
-        <button className="btnsearch">search</button>
-        <button className="btngetlocation">getlocation</button>
+        <button className="btnsearch">Search for Places</button>
+        <button className="btngetlocation">Q</button>
       </div>
       <div className="actualclima">
         <Tarjetaclima></Tarjetaclima>

@@ -10,7 +10,9 @@ const DefaultWeather2 = () => {
         <button className="btnsearch2">search</button>
         <button className="btngetlocation2">getlocation</button>
       </div>
+
       <div className="tarjetas">
+        {/* //pasar un props para saber que tarjeta es cada una y que dia es */}
         <Tarjetaclima></Tarjetaclima>
         <Tarjetaclima></Tarjetaclima>
         <Tarjetaclima></Tarjetaclima>

@@ -1,14 +1,27 @@
 .DefaultWeather {
-  height: 100vh;
+  height: 100%;
 }
 .busqueda,
 .busqueda2 {
   background-color: darkolivegreen;
-  display: flex;
-  justify-content: center;
   height: 10%;
 }
 
+.busqueda {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+}
+.busqueda2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btnsearch2,
+.btngetlocation2 {
+  margin-right: 5%;
+}
 .btnsearch {
   margin: 0 auto;
   background-color: rebeccapurple;
@@ -29,10 +42,38 @@
 .datosclima {
   background-color: burlywood;
   height: 100%;
+  display: block;
+}
+
+.imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+}
+
+.grados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+.nombre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+.fecha,
+.lugar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
 }
 
 img {
-  height: 50px;
+  height: 90%;
 }
 
 .DefaultWeather2 {
@@ -41,7 +82,7 @@ img {
 }
 .DefaultWeather3 {
   background-color: chartreuse;
-  height: 57%;
+  height: 50%;
 }
 
 .DefaultWeathert {
@@ -49,7 +90,14 @@ img {
 }
 
 .tarjetas {
-  height: 30%;
+  height: 35%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.tarjetas .DefaultWeathert {
+  height: 100%;
+  margin-left: 5%;
 }
