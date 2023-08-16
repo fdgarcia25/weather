@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  margin: 0 auto;
+  margin: 0;
+  display: flex;
+}
+
+.left-body {
+  width: 30%;
+}
+.right-body {
+  width: 70%;
+}

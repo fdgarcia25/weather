@@ -1,0 +1,55 @@
+.DefaultWeather {
+  height: 100vh;
+}
+.busqueda,
+.busqueda2 {
+  background-color: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  height: 10%;
+}
+
+.btnsearch {
+  margin: 0 auto;
+  background-color: rebeccapurple;
+}
+.btngetlocation {
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.actualclima {
+  height: 90%;
+}
+
+.clima {
+  height: 100%;
+}
+
+.datosclima {
+  background-color: burlywood;
+  height: 100%;
+}
+
+img {
+  height: 50px;
+}
+
+.DefaultWeather2 {
+  background-color: aqua;
+  height: 100%;
+}
+.DefaultWeather3 {
+  background-color: chartreuse;
+  height: 57%;
+}
+
+.DefaultWeathert {
+  height: 100%;
+}
+
+.tarjetas {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
